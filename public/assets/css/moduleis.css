@@ -450,8 +450,9 @@ form textarea {
 }
 
 #main>section.one {
-    background-color: #37105c;
-    background-image: url("../../images/bay.gif");
+  
+
+   z-index: 1;
 }
 
 #main>section.two {
@@ -494,17 +495,17 @@ ul.icons li a {
     }
 
     body.header-visible #headerToggle {
-        -moz-transform: translateX(275px);
+        /* -moz-transform: translateX(275px);
         -webkit-transform: translateX(275px);
         -ms-transform: translateX(275px);
-        transform: translateX(275px);
+        transform: translateX(275px); */
     }
 
     body.header-visible #header {
-        -moz-transform: translateX(0);
+        /* -moz-transform: translateX(0);
         -webkit-transform: translateX(0);
         -ms-transform: translateX(0);
-        transform: translateX(0);
+        transform: translateX(0); */
     }
 
 /* Footer */

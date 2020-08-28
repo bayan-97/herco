@@ -1,7 +1,13 @@
 @import url("font-awesome.min.css");
 @import url("https://fonts.googleapis.com/css2?family=Alata&display=swap" );
 
-
+#video{
+	filter: brightness(8);
+	z-index: -1;
+	position: absolute; 
+	
+	
+}
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
@@ -15,7 +21,7 @@ canvas, details, embed, figure, figcaption,
 footer, header, hgroup, menu, nav, output, ruby,
 section, summary, time, mark, audio, video {
 	margin: 0;
-	padding: 0;
+	padding: 100;
 	border: 0;
 	font-size: 100%;
 	font: inherit;
